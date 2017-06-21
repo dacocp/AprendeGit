@@ -142,7 +142,7 @@
 
 11. - Después de hacer el __commit__, el tercer botón de la hilera de arriba (que se encarga de la interacción con el servidor Git central, __origin__), dirá "Push origin", y el ícono en la parte derecha tendrá un número 1, que es el número de __commits__ pendientes de sincronizar con el servidor.
 
-     ![](imagenes/GitHub_desktop_push_origin.png)
+   ![](imagenes/GitHub_desktop_push_origin.png)
 
    - Da click en él.
 
@@ -152,7 +152,7 @@
 
    - Ve a la ventana de GitHub Desktop y regresa a al rama __master__ (ver el inciso 13).
 
-      ![](imagenes/GitHub_desktop_branches_2.png)
+   ![](imagenes/GitHub_desktop_branches_2.png)
 
    - Al regresar a esta rama, deberás notar que tu archivo "Capitulo-2.md" (o el nombre que hayas usado), sobre el que estuviste trabajando, ha desaparecido. Esto es porque, si seguiste los pasos de esta guía adecuadamente, tus cambios se encuentran dentro del repositorio en tu nueva rama, y al cambiar de rama te presenta los archivos como están en la versión de la rama __master__.
 

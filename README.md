@@ -186,7 +186,7 @@
 
    - Esto abrirá una ventana de navegador, en una página de GitHub que indica las diferencias entre nuestra rama, con la rama __master__ del servidor central. Todos los archivos que hayan sido añadidos o modificados aparecerán ahí, mostrando, como en el inciso 16, los cambios en el texto de los archivos (si son archivos de texto).
 
-    ![](imagenes/GitHub_compare.png)
+     ![](imagenes/GitHub_compare.png)
 
    - Da click en "Create pull request", para que otros colaboradores revisen esta propuesta de modificación para que, en su caso, la aprueben, o sugieran cambios pertinentes.
 

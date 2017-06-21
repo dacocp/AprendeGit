@@ -142,7 +142,7 @@
 
 11. - Después de hacer el __commit__, el tercer botón de la hilera de arriba (que se encarga de la interacción con el servidor Git central, __origin__), dirá "Push origin", y el ícono en la parte derecha tendrá un número 1, que es el número de __commits__ pendientes de sincronizar con el servidor.
 
-      ![](imagenes/GitHub_desktop_push_origin.png)
+       ![](imagenes/GitHub_desktop_push_origin.png)
 
    - Da click en él.
 

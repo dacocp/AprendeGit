@@ -64,15 +64,15 @@
 
     - Elige la opción "Sign into Github.com" e los datos de tu cuenta de GitHub  
 
-    ![](imagenes/GitHub_desktop_login.png)
+        ![](imagenes/GitHub_desktop_login.png)
 
-   - Elige la opción "Clone a Repository":  
+   - Elige la opción "Clone a Repository":    
 
-      ![](imagenes/GitHub_desktop_clone_1.png)  
+        ![](imagenes/GitHub_desktop_clone_1.png)  
 
    - En el primer campo, ingresa la dirección de este repositorio (https://github.com/dacocp/AprendeGit) y en el segundo, la ruta donde desees guardar la copia local (se sugiere dejarlo como está por default). Guarda o memoriza esta ruta, ya que ahí quedarán almacenados los archivos del proyecto.  
 
-      ![](imagenes/GitHub_desktop_clone_2.png)
+        ![](imagenes/GitHub_desktop_clone_2.png)
 
    - Si todo salió bien, el repositorio Git ha sido _clonado_ a tu disco duro, y podrás ver sus archivos en la ruta que ingresaste (o que dejaste por default) en el inciso anterior.
 

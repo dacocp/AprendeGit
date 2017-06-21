@@ -200,23 +200,23 @@
 
 10. #### Revisar un pull request
 
-    - A continuación nos mostrará el __pull request__ creado.
+     - A continuación nos mostrará el __pull request__ creado.
 
-       ![](imagenes/GitHub_merge_pull_request.png)
+        ![](imagenes/GitHub_merge_pull_request.png)
 
-    - El creador del __pull request__ no debería ser quien lo revise y apruebe haciendo el __merge__, sino algun otro colaborador. Pero para continuar con esta guía lo revisaremos nosotros mismos. Si se te cierra la página donde estabamos, puedes regresar a ella facilmente. En la página de GitHub de nuestro repositorio (https://github.com/dacocp/AprendeGit, en nuestro caso), hay una pestaña que dice "Pull requests", en donde podemos encontrar todos los "Pull requests", aunque no nos hayan puesto como revisores.
+     - El creador del __pull request__ no debería ser quien lo revise y apruebe haciendo el __merge__, sino algun otro colaborador. Pero para continuar con esta guía lo revisaremos nosotros mismos. Si se te cierra la página donde estabamos, puedes regresar a ella facilmente. En la página de GitHub de nuestro repositorio (https://github.com/dacocp/AprendeGit, en nuestro caso), hay una pestaña que dice "Pull requests", en donde podemos encontrar todos los "Pull requests", aunque no nos hayan puesto como revisores.
 
-    - En la página, podrás notar que hay lugar para escribir comentarios de ida y vuelta con los demás colaboradores que lo estén revisando. Además, en la parte superior podemos ver tres pestañas "Conversation", "Commits" y "Files changed", en donde se pueden explorar a fondo los cambios propuestos. Si todo se ve bien y deseas integrar los cambios a la rama __master__, da click en "Merge pull request".
+     - En la página, podrás notar que hay lugar para escribir comentarios de ida y vuelta con los demás colaboradores que lo estén revisando. Además, en la parte superior podemos ver tres pestañas "Conversation", "Commits" y "Files changed", en donde se pueden explorar a fondo los cambios propuestos. Si todo se ve bien y deseas integrar los cambios a la rama __master__, da click en "Merge pull request".
 
-    - Cuando un pull request en verdad es requerido por algún colaborador (en vez de que estar revisando nuestras propias modificaciones), la página hasta arriba tendrá un boton indicando "Add your review".
+     - Cuando un pull request en verdad es requerido por algún colaborador (en vez de que estar revisando nuestras propias modificaciones), la página hasta arriba tendrá un boton indicando "Add your review".
 
-       ![](/imagenes/GitHub_add_review.png)
+        ![](/imagenes/GitHub_add_review.png)
 
-    - Al dar click en este botón nos llevará a la siguiente página, en donde podemos editar directamente los archivos propuestos, y al final dar un dictamen, como se muestra en la imagen.
+     - Al dar click en este botón nos llevará a la siguiente página, en donde podemos editar directamente los archivos propuestos, y al final dar un dictamen, como se muestra en la imagen.
 
-      ![](/imagenes/GitHub_review.png)
+       ![](/imagenes/GitHub_review.png)
 
-    - El dictamen será enviado al que generó el __pull request__ para que, en su caso, haga las modificaciones que se indiquen.
+     - El dictamen será enviado al que generó el __pull request__ para que, en su caso, haga las modificaciones que se indiquen.
 
 
 - Ahora, por favor ayudame a mejorar este documento mientras aprendes a utilizar Git y GitHub, unas de las herramientas más poderosas de colaboración que existen!

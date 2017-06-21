@@ -76,93 +76,93 @@
 
    - Si todo salió bien, el repositorio Git ha sido _clonado_ a tu disco duro, y podrás ver sus archivos en la ruta que ingresaste (o que dejaste por default) en el inciso anterior.
 
-2. Cliente Git, GitHub Desktop
+2. #### Cliente Git, GitHub Desktop
 
- - En la pantalla siguiente puedes interactuar con tu repositorio local para hacer __commits__ y actualizar repositorio local, pero también para interactuar con el repositorio remoto __origin__. Verás  la lista de cambios en tu área de trabajo, que no han sido sincronizados (__commit__) con tu _master branch_. Como el repositorio está recién clonado, debe mostrar: _0 changed files_
+   - En la pantalla siguiente puedes interactuar con tu repositorio local para hacer __commits__ y actualizar repositorio local, pero también para interactuar con el repositorio remoto __origin__. Verás  la lista de cambios en tu área de trabajo, que no han sido sincronizados (__commit__) con tu _master branch_. Como el repositorio está recién clonado, debe mostrar: _0 changed files_
 
-    ![](imagenes/GitHub_desktop_pantalla_inicio.png)
+      ![](imagenes/GitHub_desktop_pantalla_inicio.png)
 
- - Es importante actualizar nuestro repositorio local frecuentemente para que nuestra versión local, sobre la que estamos realizando  cambios no se separe mucho de la versión del repositorio central, __origin__, y se más fácil integrarlos más adelante. Para esto, es necesario dar click en el tercer botón de la hilera en la parte superior de la pantalla, "Fetch origin":
+   - Es importante actualizar nuestro repositorio local frecuentemente para que nuestra versión local, sobre la que estamos realizando  cambios no se separe mucho de la versión del repositorio central, __origin__, y se más fácil integrarlos más adelante. Para esto, es necesario dar click en el tercer botón de la hilera en la parte superior de la pantalla, "Fetch origin":
 
-    ![](imagenes/GitHub_desktop_fetch_origin.png)
+      ![](imagenes/GitHub_desktop_fetch_origin.png)
 
-3. Editor Markdown
+3. #### Editor Markdown
 
- - Deja la pantalla de GitHub Desktop abierta y en un navegador busca y descarga un editor de _Markdown_ (por ejemplo: http://markdownpad.com). Una vez descargado, instalalo en tu computadora.
+   - Deja la pantalla de GitHub Desktop abierta y en un navegador busca y descarga un editor de _Markdown_ (por ejemplo: http://markdownpad.com). Una vez descargado, instalalo en tu computadora.
 
- - Abre tu editor de _Markdown_. Da click en "File" -> "Open". Busca directorio en donde se guardó el clon de este repositorio Git (en el paso 5 elegiste la ruta donde se guardarían los archivos) y abre el archivo "Readme.md". Ahí encontrarás el texto del tutorial que estás leyendo en este momento. Está escrito en formato _Markdown_, que permite dar formato a textos utilizando etiquetas muy sencillas (por ejemplo, rodear un palabra con guiones bajos, producirá un texto en \__itálicas_\_). Deja esta ventanta abierta y, por lo pronto, regresa a la pantalla de GitHub Desktop.
+   - Abre tu editor de _Markdown_. Da click en "File" -> "Open". Busca directorio en donde se guardó el clon de este repositorio Git (en el paso 5 elegiste la ruta donde se guardarían los archivos) y abre el archivo "Readme.md". Ahí encontrarás el texto del tutorial que estás leyendo en este momento. Está escrito en formato _Markdown_, que permite dar formato a textos utilizando etiquetas muy sencillas (por ejemplo, rodear un palabra con guiones bajos, producirá un texto en \__itálicas_\_). Deja esta ventanta abierta y, por lo pronto, regresa a la pantalla de GitHub Desktop.
 
-4. Crear ramas
+4. #### Crear ramas
 
- - Cuando utilices GitHub para colaborar, hay que seguir buenas prácticas, que faciliten la convivencia y colaboración. En general, es de mala educación modificar la rama __master__ del repositorio público (que es de todos), sin solicitar la revisión de otros colaboradores.
+   - Cuando utilices GitHub para colaborar, hay que seguir buenas prácticas, que faciliten la convivencia y colaboración. En general, es de mala educación modificar la rama __master__ del repositorio público (que es de todos), sin solicitar la revisión de otros colaboradores.
 
- - Por esto es buena práctica crear nuevas ramas (_branch_) y trabajar sobre ellas, hasta que las modificaciones propuestas estén suficientemente "maduras". Cuando la versión de la rama que hayas creado esté lista, podrá ser fusionada con la rama principal.
+   - Por esto es buena práctica crear nuevas ramas (_branch_) y trabajar sobre ellas, hasta que las modificaciones propuestas estén suficientemente "maduras". Cuando la versión de la rama que hayas creado esté lista, podrá ser fusionada con la rama principal.
 
- - Revisa si existen otras ramas activas en el repositorio, dando click en donde dice "Current Branch".
+   - Revisa si existen otras ramas activas en el repositorio, dando click en donde dice "Current Branch".
 
-    ![](imagenes/GitHub_desktop_branches.png)
+      ![](imagenes/GitHub_desktop_branches.png)
 
- - Crea una nueva rama para tus cambios. En GitHub desktop, en el menú de hasta arriba, da click en "Branch" -> "New Branch".
+   - Crea una nueva rama para tus cambios. En GitHub desktop, en el menú de hasta arriba, da click en "Branch" -> "New Branch".
 
-    ![](imagenes/GitHub_desktop_new_branch.png)
+      ![](imagenes/GitHub_desktop_new_branch.png)
 
- - Escribe el nombre de tu nueva rama, por ejemplo, "Capitulo-2" (los nombres de las ramas no aceptan espacios). Si ya existe una rama con este nombre (por eso te pedí que verificaras las ramas existentes), intenta "Capitulo-3", "Capitulo-4", o algún nombre que describa lo que se va a trabajar en esta rama.
+   - Escribe el nombre de tu nueva rama, por ejemplo, "Capitulo-2" (los nombres de las ramas no aceptan espacios). Si ya existe una rama con este nombre (por eso te pedí que verificaras las ramas existentes), intenta "Capitulo-3", "Capitulo-4", o algún nombre que describa lo que se va a trabajar en esta rama.
 
       ![](imagenes/GitHub_desktop_create_branch.png)
 
-5. Push
+5. #### Push
 
- - Ahora actualiza el repositorio central de GitHub (__origin__) para publicar esta nueva rama, haciendo un __push__.
+   - Ahora actualiza el repositorio central de GitHub (__origin__) para publicar esta nueva rama, haciendo un __push__.
 
-    ![](imagenes/GitHub_desktop_push_branch.png)
+     ![](imagenes/GitHub_desktop_push_branch.png)
 
- - Esto actualizará el repositorio para todos los colaboradores, que podrán ver que alguien está trabajando en una rama paralela.
+   - Esto actualizará el repositorio para todos los colaboradores, que podrán ver que alguien está trabajando en una rama paralela.
 
- - Asegurate que tu nueva rama esté seleccionada como rama de trabajo (ver paso 12).
+   - Asegurate que tu nueva rama esté seleccionada como rama de trabajo (ver paso 12).
 
-6. Área de trabajo / Workspace
+6. #### Área de trabajo / Workspace
 
- - Ahora regresa a tu editor _Markdown_.
+   - Ahora regresa a tu editor _Markdown_.
 
- - Ve al final del documento y añade una línea con tu nombre y algún comentario o sugerencia sobre este tutorial.
+   - Ve al final del documento y añade una línea con tu nombre y algún comentario o sugerencia sobre este tutorial.
 
- - Después, crea un nuevo archivo llamado "Capitulo-2.md" (o algo relacionado con el nombre que le hayas dado a tu nueva rama) y guárdalo en la misma carpeta donde se encuentra "Readme.md".
+   - Después, crea un nuevo archivo llamado "Capitulo-2.md" (o algo relacionado con el nombre que le hayas dado a tu nueva rama) y guárdalo en la misma carpeta donde se encuentra "Readme.md".
 
- - Escribe algo importante en tu nuevo archivo.
+   - Escribe algo importante en tu nuevo archivo.
 
- - Guarda el archivo y vuelve a la ventana de GitHub Desktop.
+   - Guarda el archivo y vuelve a la ventana de GitHub Desktop.
 
-7. Commit
+7. #### Commit
 
- - En GitHub Desktop notarás que los cambios que hiciste en "Readme.md" fueron detectados.
+   - En GitHub Desktop notarás que los cambios que hiciste en "Readme.md" fueron detectados.
 
-     ![](imagenes/GitHub_desktop_cambios.png)
+       ![](imagenes/GitHub_desktop_cambios.png)
 
- - En la parte izquierda, encontrarás la lista de archivos que fueron modificados. En este caso, si modificaste el archivo "Readme.md" y creaste un nuevo archivo, deberás encontrarlos aquí.
+   - En la parte izquierda, encontrarás la lista de archivos que fueron modificados. En este caso, si modificaste el archivo "Readme.md" y creaste un nuevo archivo, deberás encontrarlos aquí.
 
- - Puedes hacer click en cada uno de ellos, para ver los cambios dentro de ese archivo en la parte derecha de la pantalla. Con fondo rosa y precedido con un símbolo "-", verás el contenido eliminado, y en verde precedido por "+" encontrarás el contenido agregado.
+   - Puedes hacer click en cada uno de ellos, para ver los cambios dentro de ese archivo en la parte derecha de la pantalla. Con fondo rosa y precedido con un símbolo "-", verás el contenido eliminado, y en verde precedido por "+" encontrarás el contenido agregado.
 
- - Si das click derecho sobre los archivos de la lista a la izquierda, aparecen otras opciones. La palomita (o su ausencia) a la izquierda del nombre de cada archivo los incluye o excluye de un __commit__. Asegúrate que todos los archivos que modificaste estén palomeados.
+   - Si das click derecho sobre los archivos de la lista a la izquierda, aparecen otras opciones. La palomita (o su ausencia) a la izquierda del nombre de cada archivo los incluye o excluye de un __commit__. Asegúrate que todos los archivos que modificaste estén palomeados.
 
- - Ahora, haremos el __commit__ de los cambios que hiciste en tus archivos para que queden a la cabeza de tu rama local _Capitulo-2_ (o como le hayas llamado) y rastreados por Git como una nueva versión.
+   - Ahora, haremos el __commit__ de los cambios que hiciste en tus archivos para que queden a la cabeza de tu rama local _Capitulo-2_ (o como le hayas llamado) y rastreados por Git como una nueva versión.
 
-  - En la parte inferior izquierda de la pantalla, verás un cuadro de texto donde ingresar un resumen ("Summary") y una descripción más elaborada ("Description", opcional).
+   - En la parte inferior izquierda de la pantalla, verás un cuadro de texto donde ingresar un resumen ("Summary") y una descripción más elaborada ("Description", opcional).
 
    - Escribe un resumen y una descripción (opcional) de tu __commit__ y da click en el boton de abajo ("Commit to Capitulo-2").
 
-8. Push de un commit
+8. #### Push de un commit
 
- - Si todo salió bien, volverás a ver "0 changed files" y la pantalla vacía, y bajo del boton aparecerá una leyenda que dice "Commited just now". El botón de "Undo", a la derecha, te permite arrepentirte de tu __commit__ más reciente.
+   - Si todo salió bien, volverás a ver "0 changed files" y la pantalla vacía, y bajo del boton aparecerá una leyenda que dice "Commited just now". El botón de "Undo", a la derecha, te permite arrepentirte de tu __commit__ más reciente.
 
- - Si tu nuevo capítulo está listo para ser compartido con el resto de los colaboradores, ahora podemos hacer un __push__, que lo enviará al repositorio central __origin__, en la rama que creaste.
+   - Si tu nuevo capítulo está listo para ser compartido con el resto de los colaboradores, ahora podemos hacer un __push__, que lo enviará al repositorio central __origin__, en la rama que creaste.
 
- - Después de hacer el __commit__, el tercer botón de la hilera de arriba (que se encarga de la interacción con el servidor Git central, __origin__), dirá "Push origin", y el ícono en la parte derecha tendrá un número 1, que es el número de __commits__ pendientes de sincronizar con el servidor.
+   - Después de hacer el __commit__, el tercer botón de la hilera de arriba (que se encarga de la interacción con el servidor Git central, __origin__), dirá "Push origin", y el ícono en la parte derecha tendrá un número 1, que es el número de __commits__ pendientes de sincronizar con el servidor.
 
-    ![](imagenes/GitHub_desktop_push_origin.png)
+      ![](imagenes/GitHub_desktop_push_origin.png)
 
- - Da click en él.
+   - Da click en él.
 
- - Tu nuevo contenido ahora se encuentra en el servidor central (en GitHub, en este caso), bajo la rama que tú creaste y listo para que otros, al actualizar sus repositorios reciban tus cambios y puedan empezar a colaborar con tu capítulo.
+   - Tu nuevo contenido ahora se encuentra en el servidor central (en GitHub, en este caso), bajo la rama que tú creaste y listo para que otros, al actualizar sus repositorios reciban tus cambios y puedan empezar a colaborar con tu capítulo.
 
 9. Merge / Pull request
 

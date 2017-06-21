@@ -78,7 +78,7 @@
 
 2. #### Cliente Git, GitHub Desktop
 
-   - En la pantalla siguiente puedes interactuar con tu repositorio local para hacer __commits__ y actualizar repositorio local, pero también para interactuar con el repositorio remoto __origin__. Verás  la lista de cambios en tu área de trabajo, que no han sido sincronizados (__commit__) con tu _master branch_. Como el repositorio está recién clonado, debe mostrar: _0 changed files_
+    - En la pantalla siguiente puedes interactuar con tu repositorio local para hacer __commits__ y actualizar repositorio local, pero también para interactuar con el repositorio remoto __origin__. Verás  la lista de cambios en tu área de trabajo, que no han sido sincronizados (__commit__) con tu _master branch_. Como el repositorio está recién clonado, debe mostrar: _0 changed files_
 
       ![](imagenes/GitHub_desktop_pantalla_inicio.png)
 
@@ -164,7 +164,7 @@
 
    - Tu nuevo contenido ahora se encuentra en el servidor central (en GitHub, en este caso), bajo la rama que tú creaste y listo para que otros, al actualizar sus repositorios reciban tus cambios y puedan empezar a colaborar con tu capítulo.
 
-9. Merge / Pull request
+9. #### Merge / Pull request
 
  - Una vez que tu capítulo esté terminado será necesario integrarlo a la rama __master__, es decir, vamos a hacer un __merge__ entre nuestra nueva rama y la rama __master__, pero para esto vamos a pedir a otros colaboradores que revisen la propuesta de cambios y acepten las modificaciones o indiquen comentarios pertinentes.
 
@@ -198,7 +198,7 @@
 
  - Agrega a algún colaborador en tu lista de "Reviewers" y da click en "Create pull request".
 
-10. Revisar un pull request
+10. #### Revisar un pull request
 
  - A continuación nos mostrará el __pull request__ creado.
 

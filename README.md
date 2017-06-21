@@ -152,7 +152,7 @@
 
    - Ve a la ventana de GitHub Desktop y regresa a al rama __master__ (ver el inciso 13).
 
-  ![](imagenes/GitHub_desktop_branches_2.png)
+       ![](imagenes/GitHub_desktop_branches_2.png)
 
    - Al regresar a esta rama, deberás notar que tu archivo "Capitulo-2.md" (o el nombre que hayas usado), sobre el que estuviste trabajando, ha desaparecido. Esto es porque, si seguiste los pasos de esta guía adecuadamente, tus cambios se encuentran dentro del repositorio en tu nueva rama, y al cambiar de rama te presenta los archivos como están en la versión de la rama __master__.
 
@@ -164,17 +164,17 @@
 
    - Para esto, ve al menú principal y da click en "Branch" -> "Compare on GitHub".
 
-      ![](imagenes/GitHub_desktop_compare.png)
+       ![](imagenes/GitHub_desktop_compare.png)
 
    - Esto abrirá una ventana de navegador, en una página de GitHub que indica las diferencias entre nuestra rama, con la rama __master__ del servidor central. Todos los archivos que hayan sido añadidos o modificados aparecerán ahí, mostrando, como en el inciso 16, los cambios en el texto de los archivos (si son archivos de texto).
 
-     ![](imagenes/GitHub_compare.png)
+       ![](imagenes/GitHub_compare.png)
 
    - Da click en "Create pull request", para que otros colaboradores revisen esta propuesta de modificación para que, en su caso, la aprueben, o sugieran cambios pertinentes.
 
 14. - El __pull request__ es creado, solicitando la fusión de las dos ramas. En la pantalla ahora se mostrarán los datos del __pull request__, y su creador puede escribir comentarios adicionales describiendo sus modificaciones.
 
-      ![](imagenes/GitHub_pull_request.png)
+       ![](imagenes/GitHub_pull_request.png)
 
     - En la parte derecha de la ventana en "Reviewers", se puede solicitar que uno o más colaboradores hagan la revisión. Será necesario teclear su nombre de usuario y ellos recibirán un mail de notificación. El o los "Asignees", usualmente se eligen de entre los colaboradores que más participaron en el desarrollo de esta rama (y este __pull request__ en particular).
 

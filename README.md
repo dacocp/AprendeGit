@@ -56,6 +56,7 @@
 # GUÍA PASO A PASO PARA COLABORAR CON GIT Y GITHUB
 
 1. Primeros pasos
+
  - Ve a https://github.com y crea una cuenta.
 
  - Descarga e instala el cliente git GitHub Desktop:
@@ -76,6 +77,7 @@
  - Si todo salió bien, el repositorio Git ha sido _clonado_ a tu disco duro, y podrás ver sus archivos en la ruta que ingresaste (o que dejaste por default) en el inciso anterior.
 
 2. Cliente Git, GitHub Desktop
+
  - En la pantalla siguiente puedes interactuar con tu repositorio local para hacer __commits__ y actualizar repositorio local, pero también para interactuar con el repositorio remoto __origin__. Verás  la lista de cambios en tu área de trabajo, que no han sido sincronizados (__commit__) con tu _master branch_. Como el repositorio está recién clonado, debe mostrar: _0 changed files_
 
     ![](imagenes/GitHub_desktop_pantalla_inicio.png)
@@ -85,11 +87,13 @@
     ![](imagenes/GitHub_desktop_fetch_origin.png)
 
 3. Editor Markdown
+
  - Deja la pantalla de GitHub Desktop abierta y en un navegador busca y descarga un editor de _Markdown_ (por ejemplo: http://markdownpad.com). Una vez descargado, instalalo en tu computadora.
 
  - Abre tu editor de _Markdown_. Da click en "File" -> "Open". Busca directorio en donde se guardó el clon de este repositorio Git (en el paso 5 elegiste la ruta donde se guardarían los archivos) y abre el archivo "Readme.md". Ahí encontrarás el texto del tutorial que estás leyendo en este momento. Está escrito en formato _Markdown_, que permite dar formato a textos utilizando etiquetas muy sencillas (por ejemplo, rodear un palabra con guiones bajos, producirá un texto en \__itálicas_\_). Deja esta ventanta abierta y, por lo pronto, regresa a la pantalla de GitHub Desktop.
 
 4. Crear ramas
+
  - Cuando utilices GitHub para colaborar, hay que seguir buenas prácticas, que faciliten la convivencia y colaboración. En general, es de mala educación modificar la rama __master__ del repositorio público (que es de todos), sin solicitar la revisión de otros colaboradores.
 
  - Por esto es buena práctica crear nuevas ramas (_branch_) y trabajar sobre ellas, hasta que las modificaciones propuestas estén suficientemente "maduras". Cuando la versión de la rama que hayas creado esté lista, podrá ser fusionada con la rama principal.
@@ -107,6 +111,7 @@
       ![](imagenes/GitHub_desktop_create_branch.png)
 
 5. Push
+
  - Ahora actualiza el repositorio central de GitHub (__origin__) para publicar esta nueva rama, haciendo un __push__.
 
     ![](imagenes/GitHub_desktop_push_branch.png)
@@ -116,6 +121,7 @@
  - Asegurate que tu nueva rama esté seleccionada como rama de trabajo (ver paso 12).
 
 6. Área de trabajo / Workspace
+
  - Ahora regresa a tu editor _Markdown_.
 
  - Ve al final del documento y añade una línea con tu nombre y algún comentario o sugerencia sobre este tutorial.
@@ -127,6 +133,7 @@
  - Guarda el archivo y vuelve a la ventana de GitHub Desktop.
 
 7. Commit
+
  - En GitHub Desktop notarás que los cambios que hiciste en "Readme.md" fueron detectados.
 
      ![](imagenes/GitHub_desktop_cambios.png)
@@ -144,6 +151,7 @@
    - Escribe un resumen y una descripción (opcional) de tu __commit__ y da click en el boton de abajo ("Commit to Capitulo-2").
 
 8. Push de un commit
+
  - Si todo salió bien, volverás a ver "0 changed files" y la pantalla vacía, y bajo del boton aparecerá una leyenda que dice "Commited just now". El botón de "Undo", a la derecha, te permite arrepentirte de tu __commit__ más reciente.
 
  - Si tu nuevo capítulo está listo para ser compartido con el resto de los colaboradores, ahora podemos hacer un __push__, que lo enviará al repositorio central __origin__, en la rama que creaste.
@@ -157,6 +165,7 @@
  - Tu nuevo contenido ahora se encuentra en el servidor central (en GitHub, en este caso), bajo la rama que tú creaste y listo para que otros, al actualizar sus repositorios reciban tus cambios y puedan empezar a colaborar con tu capítulo.
 
 9. Merge / Pull request
+
  - Una vez que tu capítulo esté terminado será necesario integrarlo a la rama __master__, es decir, vamos a hacer un __merge__ entre nuestra nueva rama y la rama __master__, pero para esto vamos a pedir a otros colaboradores que revisen la propuesta de cambios y acepten las modificaciones o indiquen comentarios pertinentes.
 
  - Ve a la ventana de GitHub Desktop y regresa a al rama __master__ (ver el inciso 13).
@@ -190,6 +199,7 @@
  - Agrega a algún colaborador en tu lista de "Reviewers" y da click en "Create pull request".
 
 10. Revisar un pull request
+
  - A continuación nos mostrará el __pull request__ creado.
 
     ![](imagenes/GitHub_merge_pull_request.png)
